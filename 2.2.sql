@@ -1,0 +1,2 @@
+--Informar los empleados contratados en febrero, junio y agosto de cualquier año. Mostrar
+--apellido, nombre y fecha de contratación y ordenar por mes empezando por los de febrero.select apellido, nombre, fecha_contratacionfrom empleadoswhere MONTH(fecha_contratacion) = 2 or MONTH(fecha_contratacion) = 6 or MONTH(fecha_contratacion) = 8order by MONTH(fecha_contratacion)
