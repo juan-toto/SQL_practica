@@ -1,0 +1,1 @@
+--Mostrar los nombres de los autores que tengan una “A” en su nombre.select *from autoreswhere autor_nombre like '%a%'
