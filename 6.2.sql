@@ -1,0 +1,1 @@
+-- Mostrar el máximo de adelanto de todos los títulosselect MAX(adelanto) as 'adelato mas alto'from titulos

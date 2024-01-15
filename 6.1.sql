@@ -1,0 +1,1 @@
+--Mostrar el promedio de venta anual de todos los títulosselect AVG(venta_anual) as 'promedio de ventas anual'from titulos
